@@ -1,0 +1,58 @@
+.containerApp { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    background: #281c1c;
+}
+
+.containerApp h1 {
+    font-size: 2.2em;
+    text-align: center;
+    height: 50px;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoContainer h1, h2 {
+ margin: 25px;
+}
+
+.continerCanvasImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.originalImage {
+    display: flex;
+    flex-direction: column;
+}
+
+.generatedImage {
+    margin-top: 0.31em;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.buttonContainer button {
+    padding: 1em 2em;
+    margin: 0 1em;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #788082;
+    color: white;
+    transition: background-color 0.3s;
+}
